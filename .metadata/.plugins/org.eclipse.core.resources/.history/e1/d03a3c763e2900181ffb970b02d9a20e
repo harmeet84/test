@@ -1,0 +1,29 @@
+package com.sample.integrationtest.integration_test;
+
+import junit.framework.TestCase;
+import com.sample.integrationtest.integration_test.Lock;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppIntegrationTest 
+    extends TestCase
+{
+   
+    /**
+     * Rigourous Test :-)
+     */
+    public void testAppIntegration()
+    {
+    	App app = new App();
+    	app.setName("abc");
+    	app.setId(123);
+    	app.setSecret(123);
+    	
+    	Lock lock = new Lock(10);
+    	
+    	assertEquals(true, lock.unlock(app.calculatedKey()));
+    	assertEquals(false, lock.isLocked());
+    	
+    }
+}

@@ -1,0 +1,26 @@
+package com.sample.integrationtest.unit;
+
+import com.sample.integrationtest.integration_test.App;
+
+import junit.framework.TestCase;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+    extends TestCase
+{
+   
+
+    /**
+     * Rigourous Test :-)
+     */
+    public void testApp()
+    {
+    	App app = new App();
+    	app.setName("abc");
+    	app.setId(123);
+    	app.setSecret(123);
+        assertEquals(app.calculatedKey(), app.getId());
+    }
+}

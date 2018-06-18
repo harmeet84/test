@@ -1,0 +1,158 @@
+!SESSION 2018-03-16 15:10:06.279 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.perforce.team.core 2 0 2018-03-16 15:12:22.275
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1002.fwk1116987494:4/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-03-16 15:12:22.280
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1002.fwk1116987494:4/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-03-16 15:12:22.281
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-03-16 15:12:22.282
+!MESSAGE Using default charset: windows-1252; JVM charset: windows-1252
+
+!ENTRY com.perforce.team.core 1 0 2018-03-16 15:12:22.288
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.WindowsRpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-03-16 15:12:22.296
+!MESSAGE setting RPC system file helper to class com.perforce.p4java.impl.mapbased.rpc.sys.helper.WindowsRpcSystemFileCommandsHelper
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-16 15:12:29.626
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'H:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-03-16 15:12:30.319
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Proxy Authorization Required. ; version: 2.0.5.v20170613-1207
+!STACK 0
+org.apache.http.client.HttpResponseException: Proxy Authorization Required
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-16 15:21:13.288
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-16 15:21:13.289
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-16 15:41:17.772
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-16 15:41:17.773
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-03-16 15:43:01.589
+!MESSAGE No repository found at https://www.checkmarx.com/plugins/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-03-16 15:43:11.413
+!MESSAGE HTTP Server Unknown HTTP Response Code (301):http://www.perforce.com/downloads/http/p4-eclipse/install/4.7/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: General connection error with response code=301 and header(0)=HTTP/1.1 301 Moved Permanently
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:134)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2018-03-16 15:43:11.415
+!MESSAGE General connection error with response code=301 and header(0)=HTTP/1.1 301 Moved Permanently
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-16 15:59:37.986
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-03-16 15:59:37.987
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jdt.core 4 4 2018-03-16 17:52:56.066
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: C:\workspaces\integrationtest\integration-test\target\test-classes\com\sample\integrationtest\integration_test\AppIntegrationIT.class.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:836)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsByteArray(Util.java:1135)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileCheck(IncrementalImageBuilder.java:889)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.writeClassFileContents(IncrementalImageBuilder.java:831)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:860)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:191)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:593)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:462)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:417)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:368)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:330)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:305)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:135)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:267)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:142)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-03-16 17:52:56.066
+!MESSAGE File not found: C:\workspaces\integrationtest\integration-test\target\test-classes\com\sample\integrationtest\integration_test\AppIntegrationIT.class.
+!SESSION 2018-03-22 18:15:07.673 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.perforce.team.core 2 0 2018-03-22 18:15:28.836
+!MESSAGE unable to get manifest version attribute: Not running from jar file: bundleresource://1002.fwk1409513883:4/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 2 0 2018-03-22 18:15:28.873
+!MESSAGE unable to get manifest date attribute: Not running from jar file: bundleresource://1002.fwk1409513883:4/com/perforce/p4java/Metadata.class
+
+!ENTRY com.perforce.team.core 1 0 2018-03-22 18:15:28.874
+!MESSAGE P4Java server factory loaded; version: Internal 2010.1 Perforce Development; date: unknown
+
+!ENTRY com.perforce.team.core 1 0 2018-03-22 18:15:28.875
+!MESSAGE Using default charset: windows-1252; JVM charset: windows-1252
+
+!ENTRY com.perforce.team.core 1 0 2018-03-22 18:15:28.881
+!MESSAGE Using default RPC system file command helper: com.perforce.p4java.impl.mapbased.rpc.sys.helper.WindowsRpcSystemFileCommandsHelper
+
+!ENTRY com.perforce.team.core 1 0 2018-03-22 18:15:28.891
+!MESSAGE setting RPC system file helper to class com.perforce.p4java.impl.mapbased.rpc.sys.helper.WindowsRpcSystemFileCommandsHelper
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-22 18:15:37.934
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'H:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-03-22 19:13:39.899
+!MESSAGE No repository found at https://www.checkmarx.com/plugins/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-03-22 19:13:50.637
+!MESSAGE HTTP Server Unknown HTTP Response Code (301):http://www.perforce.com/downloads/http/p4-eclipse/install/4.7/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: General connection error with response code=301 and header(0)=HTTP/1.1 301 Moved Permanently
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:134)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2018-03-22 19:13:50.638
+!MESSAGE General connection error with response code=301 and header(0)=HTTP/1.1 301 Moved Permanently
